@@ -1,3 +1,18 @@
+```html
+<!-- baidu CDN -->
+<head>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+</head>
+<!-- Google CDN -->
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+```
+
+
+
 ## 语法
 
 ###### 基础语法：***$(selector).action()***
@@ -8,7 +23,7 @@
 
 在html所有标签（DOM）都加载之后执行
 
-```jQuery
+```javascript
 $(document).ready(function(){
     //...
 })
@@ -77,5 +92,71 @@ slideToggle(speed,callback)
 animate({param},speed,callback)
 stop(stopAll,gotoEnd)
 
+```
+
+## 回调 Callback
+
+```javascript
+$("button").click(function(){
+    $("p").hide("slow",function(){
+        alert("HIDE!");
+    });
+});
+```
+
+## 链 Chaining
+
+在相同的元素上运行多条jQuery命令 [学校](..\学校) 
+
+```javascript
+$("#p1").css("color","red").slideUp(2000).slideDown(2000);
+```
+
+## HTML
+
+#### 捕获 & 设置
+
+```
+.text(): 设置或返回文本内容
+.html(): 设置或返回所选元素的内容
+.val():  表单字段的值
+.attr(): 获取属性值
+.prop(): 获取属性值
+```
+
+#### 添加
+
+```
+.appeng()  追加文本
+.prepend() 在开头追加文本
+.after()  在后面添加文本
+.before() 在前面添加文本
+```
+
+#### 删除
+
+```
+.remove() 过滤被删除的元素
+.empty()  删除子元素
+```
+
+#### CSS
+
+```
+.addClass()
+.removeClass()
+.toggleClass()
+.css()
+```
+
+#### 尺寸
+
+```
+.width()
+.height()
+.innerWidth()
+.innerHeight()
+.outerWidth()
+.outerHeigth()
 ```
 
