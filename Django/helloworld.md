@@ -59,7 +59,7 @@ INSTALLED_APPS = [
 
 ```
 python3 manage.py migrate
-python3 manage.py makemigrations BookManage
+python3 manage.py makemigrations BookModel
 python3 manage.py migrate BookModel
 ```
 
