@@ -64,3 +64,4 @@ void DestorySeqList(SeqList &L) {
 	delete[] L.data;
 	L.length = 0;
 }
+

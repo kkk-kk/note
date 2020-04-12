@@ -6,7 +6,7 @@ using namespace std;
 
 #define MaxSize 50
 typedef struct {                   // æ≤Ã¨∑÷≈‰
-	ElemType data[MaxSize];
+	int data[MaxSize];
 	int length;
 }SqList;
 
@@ -25,3 +25,6 @@ void PrintSeqList(SeqList L);
 bool Empty(SeqList L);
 ElemType GetElem(SeqList L, int i);
 void DestorySeqList(SeqList &L);
+
+// œ∞Ã‚
+void Del_All_x(int L[], int x,int length);

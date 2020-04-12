@@ -1,12 +1,15 @@
 #include "elemType.h"
-#include "seqList.h"
+#include "exercises.h"
 
 int main() {
-	
+	int A[5] = { 1,4,5,10,11 };
+	int B[5] = { 2,4,6,8,10 };
+	int R[10];
+	Merge(A, B, R, 5, 5, 10);
 	system("pause");
 	return 0;
 }
-
+/*
 void seqList() {
 	SeqList seqlist;
 	SeqListInit(seqlist);
@@ -25,3 +28,4 @@ void seqList() {
 	int i = LocateElem(seqlist, e0);
 	DestorySeqList(seqlist);
 }
+*/

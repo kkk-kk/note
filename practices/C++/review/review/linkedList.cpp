@@ -1,11 +1,12 @@
+#pragma warning(disable:4996)
 #include "elemType.h"
 #include "linkedList.h"
 
 
 LinkList listHeadInsert(LinkList &L) {
-	LNode *s;  // 指向要添加的结点
+	LNode *s = NULL;  // 指向要添加的结点
 	ElemType e;
-	char c;
+	char c = '.';
 	L = (LinkList)malloc(sizeof(LNode));  // 头结点
 	L->next = NULL;                       // 初始为空链表
 	do {

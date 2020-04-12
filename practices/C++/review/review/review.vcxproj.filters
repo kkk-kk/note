@@ -24,6 +24,9 @@
     <ClCompile Include="linkedList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="exercises.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="seqList.h">
@@ -33,6 +36,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="linkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exercises.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

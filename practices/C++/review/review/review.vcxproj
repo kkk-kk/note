@@ -115,11 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="exercises.cpp" />
     <ClCompile Include="linkedList.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="seqList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="exercises.h" />
     <ClInclude Include="linkedList.h" />
     <ClInclude Include="seqList.h" />
     <ClInclude Include="elemType.h" />
