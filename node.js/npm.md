@@ -66,3 +66,21 @@ npm update <package> -g
 版本号 x.x.x
 
 大变动向下不兼容 . 新增功能向下兼容 . 修复bug
+
+%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Python27;C:\Python27\Scripts;C:\wamp64\bin\mysql\mysql5.7.24\bin;C:\Python37;C:\Python37\Scripts;D:\Mongo\bin;D:\tools\Nmap;%MAVEN_HOME%\bin;D:\IDE\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;%PyCharm%;D:\SoftwareTesting\TestCenter\DBSVR\bin;%CATALINA_HOME%\lib;%CATALINA_HOME%\lib\servlet-api.jar;%CATALINA_HOME%\lib\jsp-api.jar;
+
++++
+
+![image-20210124091939954](image/image-20210124091939954.png)
+
+在PowerShell中输入set-ExecutionPolicy RemoteSigned，根据提示输入A/Y
+
++++
+
+#### 修改node.js默认的npm安装目录
+
+```
+PS D:\C> npm config set prefix "D:\nodejs\npm"
+PS D:\C> npm config set cache "D:\nodejs\npm\cache"
+```
+

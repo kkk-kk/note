@@ -1,0 +1,7 @@
+启动指令
+
+```
+orbd -ORBInitialPort 1050 -ORBInitialHost 127.0.0.1
+java hw.Client -ORBInitialPort 1050
+```
+
